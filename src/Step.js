@@ -145,8 +145,8 @@ Step.propTypes = {
   titleTop: PropTypes.number,
   title: PropTypes.string,
   index: PropTypes.number,
-  active: PropTypes.boolean,
-  completed: PropTypes.boolean,
-  first: PropTypes.boolean,
-  last: PropTypes.boolean,
+  active: PropTypes.any,
+  completed: PropTypes.any,
+  first: PropTypes.any,
+  last: PropTypes.any,
 };

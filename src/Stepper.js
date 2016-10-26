@@ -36,6 +36,7 @@ export default class Stepper extends Component {
     return React.createElement(Step, {
       width: 100 / steps.length,
       title: step,
+      key: `s_${index}`,
       active: index === activeStep,
       completed: index < activeStep,
       first: index === 0,
